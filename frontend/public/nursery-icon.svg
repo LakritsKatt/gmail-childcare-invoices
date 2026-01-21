@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .cls-1 { fill: #ffd54f; }
+      .cls-2 { fill: #4fc3f7; }
+      .cls-3 { fill: #81c784; }
+      .cls-4 { fill: #ff8a65; }
+    </style>
+  </defs>
+  <!-- Sun -->
+  <circle class="cls-1" cx="20" cy="20" r="8"/>
+  <line class="cls-1" x1="20" y1="8" x2="20" y2="4" stroke="#ffd54f" stroke-width="2" stroke-linecap="round"/>
+  <line class="cls-1" x1="20" y1="32" x2="20" y2="36" stroke="#ffd54f" stroke-width="2" stroke-linecap="round"/>
+  <line class="cls-1" x1="8" y1="20" x2="4" y2="20" stroke="#ffd54f" stroke-width="2" stroke-linecap="round"/>
+  <line class="cls-1" x1="32" y1="20" x2="36" y2="20" stroke="#ffd54f" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Building/House -->
+  <rect class="cls-2" x="35" y="45" width="30" height="35" rx="2"/>
+  <polygon class="cls-4" points="35,45 50,30 65,45"/>
+  
+  <!-- Windows -->
+  <rect fill="#fff" x="40" y="52" width="8" height="8" rx="1"/>
+  <rect fill="#fff" x="52" y="52" width="8" height="8" rx="1"/>
+  
+  <!-- Door -->
+  <rect fill="#81c784" x="44" y="65" width="12" height="15" rx="1"/>
+  
+  <!-- Baby block/toy -->
+  <rect class="cls-3" x="68" y="65" width="12" height="12" rx="2" transform="rotate(15 74 71)"/>
+  <text x="71" y="74" font-family="Arial, sans-serif" font-size="10" fill="#fff" font-weight="bold">A</text>
+  
+  <!-- Grass -->
+  <ellipse class="cls-3" cx="50" cy="85" rx="40" ry="8" opacity="0.3"/>
+</svg>
